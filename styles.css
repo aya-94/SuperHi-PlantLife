@@ -16,10 +16,6 @@ body {
     overflow-x: hidden;
 }
 
-h1 {
-
-}
-
 nav {
     position: fixed;
     top: 0;
@@ -71,4 +67,38 @@ a.toggle-nav {
 a.toggle-nav img {
     margin: 0 5px 0 0;
     vertical-align: middle;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+section div {
+    width: 350px;
+}
+
+section div.content {
+    margin: 0 0 0 60px;
+}
+
+h1 {
+    font-family: "Young Serif";
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+p {
+    margin: 20px 0;
+}
+
+a.button {
+    display: inline-block;
+    background-color: #009d79;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
 }
